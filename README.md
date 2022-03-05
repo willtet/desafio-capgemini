@@ -1,59 +1,15 @@
-# Geradores para testes
+# Desafio de programação CAPGEMINI 02
 
-## Request & Response Examples
+Resposta e teste de desafio de programação
 
-### API Resources
-
-  - [GET /{version}/cpf/gerar]
-  - [GET /{version}/cpf/verificar/[CPF]]
-  - [GET /{version}/pessoa/gerar]
-
-### GET /{version}/cpf/gerar
-
-Example: https://gerador-utilidade.herokuapp.com/v1/cpf/gerar
-
-Response body:
-
-    {
-        563.762.211-65
-    }
-
-### GET /{version}/cpf/verificar/${CPF}
-
-Example: https://gerador-utilidade.herokuapp.com/v1/cpf/verificar/56376221165
-
-Response body:
-
-    {
-        true
-    }
+## Tecnologia utilizada
+- JAVA
+- MAVEN
+- JUnit
 
 
+## Utilização
 
-### GET /{version}/pessoa/gerar
-
-Example: https://gerador-utilidade.herokuapp.com/v1/pessoa/gerar
-
-Request body:
-
-    {
-    "nome": "Enzo",
-    "sobrenome": "Battaglia",
-    "idade": "25",
-    "cpf": "606.625.871-03",
-    "nascimento": "1996-04-04",
-    "sexo": "masculino",
-    "estadoCivil": "solteiro",
-    "nomeMae": "Allana Vitali Battaglia",
-    "email": "60662587103@emailteste.com",
-    "senha": "--Senha--",
-    "ddd": "11",
-    "telefone": ",
-    "endereco": {
-        "cep": "--CEP--",
-        "endereco": "--Endereço--",
-        "bairro": "--Bairro--",
-        "cidade": "--Cidade--",
-        "estado": "--Estado--"
-    }
-}
+- Pode-se utilizar o IDE da sua escolha.
+- Importar o projeto Maven.
+- Realizar o teste da Classe Questao.class pela classe de teste.
